@@ -1,2 +1,2 @@
-# goit-markup-hw-06
-Проект 1-6
+# goit-markup-hw-05
+Проект 1.5
