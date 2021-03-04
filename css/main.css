@@ -324,20 +324,23 @@
 }
 
 .checkbox-icon {
-  display: inline-block;
-  width: 15px;
-  height: 15px;
+  display: block;
   margin-right: 7px;
   border: 2px solid #2a2a2a;
-  border-radius: 4px;
+  border-radius: 2px;
+  cursor: pointer;
   transition: background-color 250ms var(--timing-function),
     border 250ms var(--timing-function);
+}
+
+.checkbox-icon:hover {
+  border-color: var(--accent-test-color);
+  background-color: var(--accent-test-color);
 }
 
 .checkbox:checked + .checkbox-icon {
   border-color: var(--accent-test-color);
   background-color: var(--accent-test-color);
-  background-image: url('../img/check.svg');
   background-size: contain;
   background-origin: border-box;
 }
